@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 while(data!=-1)
                 {
                     char c=(char) data;
-                    result+=result+c;
+                    result+=c;
                     data=inputStreamReader.read();
                 }
                 JSONArray JSarr=new JSONArray(result);
